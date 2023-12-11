@@ -1,22 +1,15 @@
-import logo from './logo.svg';
+import eth from './eth.png'
 import './App.css';
+import DonateButton from './components/DonateButton.tsx'
+import DonationData from './components/DonationData.tsx'
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <img src={eth} className="App-logo" alt="logo" />
+        <DonateButton />
+        <DonationData />
       </header>
     </div>
   );

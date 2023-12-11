@@ -11,3 +11,32 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.custom-button {
+  background-color: #3498db;
+  color: #ffffff;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.custom-button:hover {
+  background-color: #2980b9;
+}
+
+.custom-input {
+  margin: 30px;
+  width: 250px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  outline: none;
+}
+
+.custom-input:focus {
+  border-color: #007bff; /* Change the border color on focus */
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Add a shadow on focus */
+}
