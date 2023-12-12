@@ -96,7 +96,7 @@ export const contractSigner = contract.connect(signer);
   ]
 }
 */
-
+/*
 // Event handler for successful donation
 contract.on("DonationTransferred", async (from, amount, tx) => {
     let balance = ethers.utils.formatEther(await provider.getBalance(from));
@@ -109,7 +109,7 @@ contract.on("DonationTransferred", async (from, amount, tx) => {
         + `   Balance: ${balance} ETH<br/>`
         + `   Total donations: ${total} ETH<br/>`
         + `   Transaction hash: ${tx.transactionHash}`;
-});
+});*/
 
 /*
 onSubmit={async (values, { setSubmitting }) => {
